@@ -7,7 +7,7 @@ Bahasa Pemograman C++ adalah bahasa yang kodenya harus dikompilasi dahulu agar b
 
 ## CODE Guided 
 
-### 1. [Cetak Teks:Hello World]
+### 1. [Cetak Teks:Hello World!]
 
 ```C++
 #include <iostream>
@@ -208,15 +208,15 @@ int main(){
 }
 ```
 #### Output Code:
-![alt text](?raw=true)
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-11-02%20162152.png?raw=true)
 
-Kode di atas merupakan kode untuk membuat bilangan bertipe float bisa melakukkan operasi dasar penjumlahan, pengurangan, perkalian dan pembagian, program akan meminta 2 inputan bertipe float lalu program akan mengeksekusi operasi dasar yang sudah di siapkan dan program akan langsung menghasil kan output hasil dari oprasi dasar tersebut.
+Kode tersebut berguna untuk membuat bilangan bertipe float bisa melakukkan operasi dasar berupa penjumlahan,pengurangan,perkalian dan pembagian,masukan 2 inputan bertipe float yang diminta oleh program,lalu program akan mengeksekusinya sesuai dengan operasi dasar yang ada,dan program akan mengeluarkan output hasil dari oprasi dasar tersebut.
 
-#### Full code Screenshot:
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6a045365-2bcb-4b36-9e66-c57fcde87f3d" />
+#### Screenshot Full Code:
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-11-02%20162945.png?raw=true)
 
 
-### 2. [Mengubah Angka Menjadi String]
+### 2. [Mengubah Angka Menggunakan String]
 
 ```C++
 #include <iostream>
@@ -227,8 +227,8 @@ int main() {
     cout << "";
     cin >> n;
 
-    string satuan[] = {"nol", "satu", "dua", "tiga", "empat", "lima",
-                       "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas"};
+    string satuan[] = {"Nol", "Satu", "Dua", "Tiga", "Empat", "Lima",
+                       "Enam", "Tujuh", "Delapan", "Sembilan", "Sepuluh", "Sebelas"};
 
     string hasil;
 
@@ -244,7 +244,7 @@ int main() {
     } else if (n == 100) {
         hasil = "seratus";
     } else {
-        hasil = "angka melebihi kapasitas ";
+        hasil = "Angka Melebihi Kapasitas ";
     }
 
     cout << n << " : " << hasil << endl;
@@ -253,16 +253,16 @@ int main() {
 }
 ```
 #### Output:
-<img width="1377" height="303" alt="image" src="https://github.com/user-attachments/assets/e3aa73c0-670d-486c-9c64-37f1a2bd2983" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-11-02%20173314.png?raw=true)
 
 
-Code di atas digunakan untuk mengubah angka atau tipe integer menjadi string, jadi si program akan meminta input berupa int lalu program akan mengecek di bagian if else apakah sesuai dengan aturan jika iya makan angka tersebut akan diubah lalu jika angka puluhan maka akan ada tambahan berupa string yang sudah di siapkan di string satuan (buat string satuan []) dan jika angkanya melebihi kapasitas maka output yang keluar "angka melebihi kapasitas".
+Kode tersebut berfungsi untuk mengubah angka yang bertipe integer menjadi string,program akan meminta input berupa int lalu program akan mengecek if-else,jika sesuai dengan aturan maka angka akan diubah,jika angka puluhan ataupu ratusam maka akan ada tambahan string yang sudah di siapkan di string satuan (buat string satuan []) dan jika angkanya melebihi kapasitas output yang keluar "Angka Melebihi Kapasitas".
 
-#### Full code Screenshot:
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/e27a31c1-a608-4d4d-92d8-f5b0aa638767" />
+#### Screenshot Full Code:
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-11-02%20173325.png?raw=true)
 
 
-### 3. [Buat Segitiga Angka]
+### 3. [Segitiga Angka]
 
 ```C++
 #include <iostream>
@@ -270,14 +270,14 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "input: ";
+    cout << "Inputkan Angka: ";
     if (!(cin >> n)) return 0;
 
     for (int i = n; i >= 0; i--) {
         // Spasi di depan
         for (int s = 0; s < n - i; s++) cout << "  ";
 
-        //Angka menurun
+        // Angka menurun
         for (int a = i; a >= 1; a--) cout << a << " ";
 
         // Bintang di tengah
@@ -294,16 +294,16 @@ int main() {
 
 ```
 #### Output:
-<img width="1359" height="272" alt="image" src="https://github.com/user-attachments/assets/73b7a654-53b6-47d9-ac51-aba9c1c2be62" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-11-02%20174323.png?raw=true)
 
-Kode ini membuat urutan angka yang berbentuk segitiga sama sisi, pengguna akan menginput variable bertipe int lalu akan masuk ke perulangan yang akan menulis ulang angka yang di inputkan dari yang terbesar sampai terkecil dengan di batasi tanda bintang setiap for memilki fungsi masing-masing untuk bisa membuat bentuk segitiga.
+Kode ini dapat meng-urutkan angka yang berbentuk segitiga sama sisi,pengguna dapat menginputkan variable bertipe int,lalu diperulangan akan menulis ulang angka yang di inputkan (terbesar ke terkecil) dengan di batasi tanda bintang,for memilki fungsi masing-masing untuk bisa membuat bentuk segitiga.
 
-#### Full code Screenshot:
-<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/8b954c7e-df0a-4c50-ba9c-28200fb562f2" />
+#### Screenshot Full Code:
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-11-02%20174352.png?raw=true)
 
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1]. pandangan ku di minggu pertama praktikum saya jadi bisa mengenal lebih dalam bahasa pemrograman C++ ini dari penggunaan dasar pemrograman, structure program, running code, compile code dan bentukan variblenya dengan belajar bahasa baru bisa menambah pengetahuan kalau bahasa program itu sangat beragam dan berbeda beda structure dan pembuatannya.   
+Saya jadi dapat mengenal bahasa pemrograman C++ dengan lebih dalam,mengenal dasar pemrograman,structure program,running code,compile code,variable dan juga output-nya,yang memang sangat berbeda(lebih mudah) daripada menggunakan Golang.   
 
 ## Referensi
 [1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
