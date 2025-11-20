@@ -1,5 +1,5 @@
 #include <iostream>
-#include "StackMahasiswa.h"
+#include "mahasiswa.h"
 using namespace std;
 
 int main() {
@@ -33,3 +33,4 @@ int main() {
 
     return 0;
 }
+
