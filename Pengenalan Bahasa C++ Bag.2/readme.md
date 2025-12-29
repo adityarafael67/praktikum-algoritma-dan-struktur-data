@@ -153,7 +153,6 @@ int main() {
 }
 ```
 Program ini menggunakan reference untuk menukar nilai dua variabel. Reference (ref) berfungsi sebagai alias dari variabel a. Fungsi tukar() menukar nilai a dan b tanpa menggunakan pointer.
-.
 
 ## Unguided 
 
@@ -167,14 +166,14 @@ int main() {
     int A[3][3], B[3][3],
     C[3][3];
 
-    cout << "Buat Matrix A:\n";
+    cout << "Matrix A:\n";
     for (int i =0; i < 3; i++){
         for (int j=0; j < 3; j++){
             cin >> A[i][j];
         }
     }
 
-    cout << "Buat Matrix B:\n";
+    cout << "Matrix B:\n";
     for (int i =0; i < 3; i++){
         for (int j =0; j < 3; j++){
             cin >> B[i][j];
@@ -211,12 +210,12 @@ int main() {
 }
 ```
 #### Output:
-<img width="1369" height="604" alt="image" src="https://github.com/user-attachments/assets/efcfc967-8dce-41c0-84fd-d2be24734325" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-12-30%20030924.png?raw=true)
 
-Program ini dibuat untuk melakukan operasi dasar penjumlahan, pengurangan dan perkalian terhadap 2 buah matrix dengan ukuran 3x3, program akan meminta input untuk kedua matrix yang akan di lakukan operasi dasar, lalu program akan melanjutkan ke proses operasi dasar yang sudah di buat lalu hasil akan di simpan di matrix C, output nya bentuk matrix 3x3 dengan hasil dari masing masing operasi dasar.
+Program ini berfungsi sebagai operasi dasar penjumlahan, pengurangan dan perkalian terhadap 2 buah matrix dengan ukuran 3x3, output nya bentuk matrix 3x3.
 
 #### Full code Screenshot:
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/58b0a0b2-041c-4e94-8b86-014b1b7513a0" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-12-30%20030944.png?raw=true)
 
 
 ### 2. [Menukar nilai variable]
@@ -268,13 +267,12 @@ int main() {
 }
 ```
 #### Output:
-<img width="1536" height="423" alt="image" src="https://github.com/user-attachments/assets/c42937a8-5977-4be4-b3d0-815359c8d4bc" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-12-30%20031546.png?raw=true)
 
-
-program ini di buat untuk menukar 3 nilai variable menggunakan 2 cara yaitu pointer dan refrence, sebelum melakukan penukaran program akan minta input angka apa saja yang akan di tukar, lalu program akan menjalankan void pertama pertukaran nilai menggunakan pointer kemudian dilanjutkan dengan cara kedua untuk melakukakan petukaran menggunakan fungsi refrence, output yang di hasilkan adalah hasil dari proses pertukaran 3 variable menggunakan dua cara.
+program berfungsi untuk menukar 3 nilai variable menggunakan 2 cara yaitu pointer dan refrence,  program akan menjalankan void pertama pertukaran nilai menggunakan pointer kemudian dilanjutkan melakukakan petukaran menggunakan fungsi refrence, output adalah hasil dari proses pertukaran 3 variable.
 
 #### Full code Screenshot:
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c8d83ee0-b919-4ff5-b869-b2ec13794b59" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-12-30%20031613.png?raw=true)
 
 
 ### 3. [array 1 dimensi]
@@ -358,23 +356,18 @@ int main() {
 
 ```
 #### Output:
-<img width="1330" height="849" alt="image" src="https://github.com/user-attachments/assets/40a13c52-f9e3-43b3-94a2-d041a962e842" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-12-30%20024643.png?raw=true)
 
-Program mengolah data array 1 dimensi untuk mencari nilai max, min dan nilai rata-rata.
+Program data array 1 dimensi untuk mencari nilai max, min dan nilai rata-rata.
 
 #### Full code Screenshot:
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/344b529b-6319-409b-8a98-7fc8ad669e04" />
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-12-30%20025148.png?raw=true)
+![alt text](https://github.com/adityarafael67/praktikum-algoritma-dan-struktur-data/blob/main/Asset/Screenshot%202025-12-30%20025252.png?raw=true)
 
 
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1]. pandangan ku pada minggu kedua ini, dengan memahami bagaimana cara membuat fungsi terpisah di C++ dapat memudahkan pembuatan program dan program jadi terlihat tersusun rapi, dengan mempelajari pointer dan refrence kita jadi bisa memahami bagaimana cara memori itu bekerja. pengetahuan ini juga menjadi dasar penting untuk memahami konsep struktur data dan pemrograman yang lebih kompleks di modul berikutnya.
+Dapat memahami bagaimana cara membuat fungsi terpisah di C++, mempelajari pointer dan refrence kita jadi bisa paham bagaimana cara memori bekerja.
 
 ## Referensi
 [1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
-
-Keluaran:
-tangkapan layar
-
-Tangkapan Layar Kode Lengkap:
-tangkapan layar
