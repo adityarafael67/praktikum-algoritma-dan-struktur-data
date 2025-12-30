@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 5 Singly Linked List (Bagian 2) </h1>
+# <h1 align="center">Laporan Praktikum Modul 5 Singly Linked List (Bag.2) </h1>
 <p align="center">Rafael Aditya Nugroho</p>
 
 ## Dasar Teori
