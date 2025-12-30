@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 6 Double Linked List (Bagian 1) </h1>
+# <h1 align="center">Laporan Praktikum Modul 6 Double Linked List (Bag.1) </h1>
 <p align="center">Rafael Aditya Nugroho</p>
 
 ## Dasar Teori
